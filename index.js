@@ -132,10 +132,10 @@ Baby.prototype.play = function() {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. The global binding principle is when "this" is not defined. This is a mistake and will by default reference the window or global object in node.
+  2. The implicit binding principle is when "this" is referencing a particular object. This occurs when the function is called with a dot prior to the function. The object to the right of the dot is "this".
+  3. The new binding principle is when we are using a constructor function to create a new object. "this" refers to the specific object being created by the constructor function.
+  4. The explicit binding principle is when .call or .apply functions are used to invoke a constructor function. "this" then refers to the new object being created by the constructor function.
 */
 
 
